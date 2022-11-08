@@ -1,0 +1,339 @@
+#nav{
+    border: 10px solid;
+    border-color: #872C6E;  
+}
+#searborder{
+    border: 3px solid #872C6E;
+    border-radius: 2px;
+}
+#searchIcon{
+    color:#872C6E;
+}
+#categorySearch{
+    position: relative;
+    color:#872C6E;
+    font-size: 14px;
+    font-weight: bold;
+}
+.dropdown-menu-center {
+    left: 50% !important;
+    right: auto !important;
+    text-align: center !important;
+    transform: translate(-50%, 0) !important;
+  }
+#dropdown1{
+    position: absolute;
+    background-image:linear-gradient(#B73166, #872C6E);
+    text-align: center;
+    min-width:7rem;
+}
+#face, #hair, #body, #prods{
+    color:white;
+}
+#log, #profil, #setting{
+    color: white;
+}
+#disptext{
+    color: white;
+    font-size: 13px;
+}
+#navitem5{
+    color:#872C6E;  
+    font-size: 14px;  
+    font-weight: bold;
+}
+#cart{
+    color:#872C6E;
+}
+#profileicon{
+    color:#872C6E
+}
+#profile{
+    position: relative;
+}
+#login{
+    position: absolute;
+    background-image:linear-gradient( #B73166, #872C6E);
+    text-align: center;
+    min-width:3rem;
+}
+#profile:hover #login{
+    display: block;
+  }
+#categorySearch:hover #dropdown1{
+    display: block;
+  }
+#collapseIcon{
+    color: white;
+    /* background-color: #872C6E */
+}
+#profileiconcollapse{
+    color: white;
+}
+#myNavbar{
+    color: white;
+    background-image:linear-gradient( #B73166, #872C6E);
+}
+#cartcollapse{
+    color: white;
+}
+#facemenu{
+    color: white;
+    position: relative;
+}
+#faceCategory{
+    position: absolute;
+    background-image:linear-gradient( #B73166, #872C6E);
+    text-align: center;
+}
+#dryskin, #oilyskin ,#acneProne, #lipcare, #eyecare{
+    color:white;
+}
+#facemenu:hover #faceCategory{
+    display: block;
+}
+#navitem3{
+    color:#872C6E;
+    font-size: 13px;
+    font-weight: bold;
+}
+#slides{
+    background-image:linear-gradient(#872C6E, #B73166);
+}
+#catdisp{
+    background-image:linear-gradient( #B73166, #872C6E);
+    height: 25vw;
+}
+#footer{
+    background-color: white;
+    border: 10px solid;
+    border-color: #872C6E;
+}
+#foot1, #foot2{
+    color:#872C6E;
+}
+
+#navsmall{
+    border: 10px solid;
+    border-color: #872C6E;  
+}
+#menucollapse{
+    background-color: #872C6E;
+    border-radius: 100px;
+    border: 2px solid white;
+}
+#searchIconcollapse{
+    background-color: white;
+}
+#searbordercollapse{
+    border: 3px solid white;
+    border-radius: 2px;
+}
+#smallsearch{
+    background-color: #872C6E
+}
+/* media Query */
+
+@media screen and (max-width: 811px) {
+    div#navlarge {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 811px) {
+    div#navsmall {
+        display: none;
+    }
+}
+
+/* ************************************************************************************************************************************** */
+/* Sign Up page  */
+#lnav{
+    border: 10px solid;
+    border-color: #872C6E #872C6E transparent #872C6E;
+}
+#line1{
+    border: 3px solid;
+    border-bottom: 0px;
+    border-color: #872C6E transparent transparent transparent;
+}
+#line2{
+    border: 3px solid;
+    border-color: transparent transparent #872C6E transparent;
+}
+#logline{
+    /* position:absolute; */
+    border: 3px solid;
+    border-color: transparent transparent #872C6E transparent;
+}
+#label{
+    font-size: 12px;
+    color:#B73166;
+    font-weight: bold;
+}
+#logbor{
+    border: 3px solid;
+    border-color: #872C6E;
+    border-radius: 12px;
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.5);
+    width: 100vh;
+}
+#name, #phone, #email, #password, #cpassword{
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.5);
+    color:#B73166;
+    border: 2px solid;
+    border-color: transparent;
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+#captcha{
+    color:#B73166;
+}
+#errmsg{
+    color:red;
+}
+#refresh{
+    color:#B73166;
+}
+/* #captchaText:e {
+    color:#B73166;
+    border: 3px solid;
+    border-color: #872C6E;
+    border-radius: 12px;
+} */
+#captchaText{
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.5);
+    color:#B73166;
+    border: 3px solid;
+    border-color: #872C6E;
+    border-radius: 12px;
+    width: 100px;
+}
+#signup{
+    color:white;
+    background-color: #872C6E;
+    border-radius: 10px;
+    font-weight: bolder;
+    height: 35px;
+}
+#headersignup{
+    background-color: #872C6E;
+    height: 100px;
+}
+#welcome{
+    color:white;
+}
+#intro{
+    color:#872C6E;
+}
+#box:focus{
+    outline: none;
+}
+
+
+/* Modal */
+
+#modal{
+    border: 5px solid #B73166;
+    background-color: #872C6E;
+    border-radius: 5px;
+    color: white;
+}
+#modalbtn{
+    background-color: white;
+    color:#872C6E;
+}
+body#modal1 #maincon{
+    -webkit-filter: blur(5px);
+    -moz-filter: blur(5px);
+    -o-filter: blur(5px);
+    -ms-filter: blur(5px);
+    filter: blur(5px);
+}
+
+/* ************************************************************************************************************************** */
+
+/* Login page */
+
+::placeholder{
+    color: #B73166 !important;
+    opacity: 0.6 !important;
+}
+
+#forgotpwd{
+    color:#B73166;
+}
+
+#greeting{
+    color:white;
+}
+#numerr{
+    color:red;
+}
+#userId{
+    color:#B73166;
+}
+
+/* ************************************************************************************************************************************/
+
+#proddisp{
+    background-image:linear-gradient( #B73166, #872C6E);;
+}
+
+#home{
+    color: #872C6E;
+}
+#homecollapse{
+    color: white;
+}
+
+/*******************************************************************************************************************************************/
+
+#emtycartheading{
+    color:white;
+}
+
+/* *************************************Pagination*************************************************** */
+
+@keyframes show{
+    0%{
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+#addCart{
+    font-size: 10px;
+    background-color: #B73166;
+    color: white;
+}
+
+#itemsCart{
+    font-size: 15px;
+    background-color: #B73166;
+    color: white;
+    width:20px;
+    border-radius: 15px;
+}

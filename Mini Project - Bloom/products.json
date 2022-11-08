@@ -1,0 +1,178 @@
+[
+  {
+    "prodName": "Eczema Restoraderm Soothing Moisturizer",
+    "discrip": "This soothing lotion with 1% skin protectant colloidal oatmeal helps relieve minor skin irritation and itching caused by eczema. Free of parabens, fragrances and steroids, this gentle moisturizing lotion is dermatologist tested and accepted by the National Eczema Association to be suitable for sensitive, eczema prone skin. ",
+    "image": "https://i.ibb.co/HPLdXxG/Eczema-Restoraderm-Soothing-Moisturizer.png",
+    "brand": "Cetaphil",
+    "category": "Body",
+    "product": "Body Moisturizer",
+    "prodId": "1-CBM",
+    "price": "500.00",
+    "id": "01"
+  },
+  {
+    "prodName": "Moisturizing Relief Body Wash",
+    "discrip": "A creamy, rich-lather body wash with a unique blend of glycerin, shea butter and ultra-moisutrizing ingedients including avocado oil, sweet almond oil, and shea butter to soothe for instant and long lasting 24-hour dryness relief. Defends against 5 signs of skin sensitivity, including a weakened skin barrier, irritation, roughness, tightness and dryness.",
+    "image": "https://i.ibb.co/xLM8KFd/MOISTURIZING-RELIEF-BODY-WASH.png",
+    "brand": "Cetaphil",
+    "category": "Body",
+    "product": "Body Wash",
+    "prodId": "CBW-1",
+    "price": "547.00",
+    "id": "02"
+  },
+  {
+    "prodName": "Gentle Clear Clarifying Acne Cream Cleanser",
+    "discrip": "This gentle cream-to-lather formula deep cleans to clear and soothe breakouts in acne-prone, sensitive skin without drying. Balanced formula is specially formulated with acne-fighting salicylic acid plus soothing aloe and white tea extract to nourish skin. ",
+    "image": "https://i.ibb.co/nnSGVT0/Gentle-Clear-Clarifying-Acne-Cream-Cleanser.png",
+    "brand": "Cetaphil",
+    "category": "Acne Prone",
+    "product": "Acne Face Wash",
+    "prodId": "CFW-1",
+    "price": "698.00",
+    "id": "03"
+  },
+  {
+    "prodName": "Gentle Clear Mattifying Acne Moisturizer",
+    "discrip": "This lightweight moisturizer with acne-fighting salicylic acid, helps clear and prevent breakouts while soothing acne-prone, sensitive skin. It helps to absorb excess oil and provides a matte finish for softer, smoother skin. After 1 week, 89% of consumers said this moisturizer leaves their skin feeling hydrated and nourished.",
+    "image": "https://i.ibb.co/D7ZkLt8/Gentle-Clear-Mattifying-Acne-Moisturizer.png",
+    "brand": "Cetaphil",
+    "category": "Acne Prone",
+    "product": "Acne Face Moisturizer",
+    "prodId": "CFM-1",
+    "price": "520.00",
+    "id": "04"
+  },
+  {
+    "prodName": "Gentle Clear Triple-Action Acne Serum",
+    "discrip": "This milky-gel serum with 0.5% salicylic acid improves the appearance of breakouts in just 3 days. With 24-hour hydration, it is formulated with soothing succinic acid to resurface skin and improve the appearance of uneven skin tone.",
+    "image": "https://i.ibb.co/f8P9M6V/Gentle-Clear-Triple-Action-Acne-Serum.png",
+    "brand": "Cetaphil",
+    "category": "Acne Prone",
+    "product": "Acne Face Serum",
+    "prodId": "CFS-1",
+    "price": "457.00",
+    "id": "05"
+  },
+  {
+    "prodName": "Healthy Radiance Antioxidant-C Serum",
+    "discrip": "This sensitive skin-friendly serum is formulated with 12% vitamins and antioxidants to defend against surface free radicals while our GentleBright complex reduces the signs of photoaging.",
+    "image": "https://i.ibb.co/rHzqYWH/Healthy-Radiance-Antioxidant-C-Serum.png",
+    "brand": "Cetaphil",
+    "category": "Dry Skin",
+    "product": "Face Serum",
+    "prodId": "CFS-2",
+    "price": "753.00",
+    "id": "06"
+  },
+  {
+    "prodName": "Healthy Radiance Renewing Cream",
+    "discrip": "This unique lightweight, souffle like cream immediately melts into skin to instantly hydrate, smooth, and boost skin's resilience. Formulated with our GentleBright Complex of 2% niacinamide and nourishing antioxidants, it improves skin's radiance and visibly reduces the appearance of dark spots.",
+    "image": "https://i.ibb.co/LSZkgjv/Healthy-Radiance-Renewing-Cream.png",
+    "brand": "Cetaphil",
+    "category": "Dry Skin",
+    "product": "Face Moisturizer",
+    "prodId": "CFM-2",
+    "price": "215.00",
+    "id": "07"
+  },
+  {
+    "prodName": "Hydrating Foaming Cream Cleanser",
+    "discrip": "This milky-gel serum with 0.5% salicylic acid improves the appearance of breakouts in just 3 days. With 24-hour hydration, it is formulated with soothing succinic acid to resurface skin and improve the appearance of uneven skin tone.",
+    "image": "https://i.ibb.co/PjgV2Dm/Hydrating-Foaming-Cream-Cleanser.png",
+    "brand": "Cetaphil",
+    "category": "Dry Skin",
+    "product": "Face Wash",
+    "prodId": "CFW-2",
+    "price": "365.00",
+    "id": "08"
+  },
+  {
+    "prodName": "Sheer Mineral Broad Spectrum SPF 50",
+    "discrip": "A lightweight, 100% mineral sunscreen for sensitive skin, designed for daily use on the face and body, reflects the sun’s damaging UVA/UVB rays and prevents sunburn.",
+    "image": "https://i.ibb.co/54JnPQv/Sheer-Mineral-Sunscreen-Broad-Spectrum-SPF-50.png",
+    "brand": "Cetaphil",
+    "category": "Dry Skin",
+    "product": "Sunscreen",
+    "prodId": "CFSS-1",
+    "price": "426.00",
+    "id": "09"
+  },
+  {
+    "prodName": "Hydrating Eye Gel-Cream",
+    "discrip": "Unique gel cream formula absorbs quickly like a gel, but moisturizes intensely like a cream to deliver continuous 24 hour hydration. Defends against 5 signs of skin sensitivity including dryness, irritation, roughness, tightness and a weakened skin barrier.",
+    "image": "https://i.ibb.co/rHNdqKG/Hydrating-Eye-Gel-Cream.png",
+    "brand": "Cetaphil",
+    "category": "Eye Care",
+    "product": "Eye Cream",
+    "prodId": "CFEC-1",
+    "price": "495.00",
+    "id": "10"
+  },
+  {
+    "prodName": "Deep Hydration Refreshing Eye Serum",
+    "discrip": "Targeted eye cream that reduces the appearance of dark circles and puffy skin for a refreshed look. Formulated with Hyaluronic Acid, this cream deeply replenishes skin's hydration for 48 hours and improves the overall quality of sensitive skin.",
+    "image": "https://i.ibb.co/MD1HJcw/Deep-Hydration-Refreshing-Eye-Serum.png",
+    "brand": "Cetaphil",
+    "category": "Eye Care",
+    "product": "Eye Serum",
+    "prodId": "CFES-1",
+    "price": "745.00",
+    "id": "11"
+  },
+  {
+    "prodName": "Healing Ointment for Chapped Lips",
+    "discrip": "Specially formulated with a high concentration of skin protectant petrolatum to quickly protect and heal dry, irritated skin for noticeable skin improvement in 1 week. Enriched with shea butter to soften, smooth and hydrate, as well as vitamin E to help support moisture barrier function.",
+    "image": "https://i.ibb.co/Vm8FxCV/HEALING-OINTMENT-for-CHAPPED-LIPS.png",
+    "brand": "Cetaphil",
+    "category": "Lip Care",
+    "product": "Sunscreen",
+    "prodId": "CFLC-1",
+    "price": "699.00",
+    "id": "13"
+  },
+  {
+    "prodName": "Deep Hydration 48 Hour Activation Serum",
+    "discrip": "This creamy serum instantly absorbs to deliver deep 48-hour hydration. Featuring our exclusive HydroSensitiv Complex™ with soothing blue daisy to deepen dynamic hydration and soothe skin and improve the quality of sensitive skin over time.",
+    "image": "https://i.ibb.co/Rh2kJgJ/Deep-Hydration-48-Hour-Activation-Serum.png",
+    "brand": "Cetaphil",
+    "category": "Oily Skin",
+    "product": "Serum",
+    "prodId": "CFS-3",
+    "price": "585.00",
+    "id": "14"
+  },
+  {
+    "prodName": "DermaControl Oil Absorbing Moisturizer",
+    "discrip": "This lightweight, oil-free lotion delivers 24 hour hydration while MicroPearl mattifying technology helps to control shine. Formulated with broad spectrum SPF 30, this facial moisturizer provides protection from harmful UVA/UVB rays.",
+    "image": "https://i.ibb.co/NVcVJ5w/Derma-Control-Oil-Absorbing-Moisturizer-SPF-30.png",
+    "brand": "Cetaphil",
+    "category": "Oily Skin",
+    "product": "Moisturizer",
+    "prodId": "CFM-3",
+    "price": "458.00",
+    "id": "15"
+  },
+  {
+    "prodName": "DermaControl Oil Removing Foam Wash",
+    "discrip": "Deep cleansing formula, dispensed through an instant foaming pump, gently removes pore clogging impurities, makeup and excess oil without over-drying skin.",
+    "image": "https://i.ibb.co/qMH86Bb/Derma-Control-Oil-Removing-Foam-Wash.png",
+    "brand": "Cetaphil",
+    "category": "Oily Skin",
+    "product": "Face Wash",
+    "prodId": "CFW-3",
+    "price": "627.00",
+    "id": "16"
+  },
+  {
+    "prodName": "Sheer Mineral Sunscreen Face Liquid Broad Spectrum SPF 50",
+    "discrip": "An ultra-lightweight, 100% mineral active sunscreen that reflects both UVA and UVB rays to help prevent sunburn. This formula dries with a matte finish, making it ideal for application under makeup or for daily wear by itself.",
+    "image": "https://i.ibb.co/r2D3ytV/Sheer-Mineral-Sunscreen-Face-Liquid-Broad-Spectrum-SPF-50.png",
+    "brand": "Cetaphil",
+    "category": "Oily Skin",
+    "product": "Sunscreen",
+    "prodId": "CFSS-2",
+    "price": "519.00",
+    "id": "17"
+  }
+]

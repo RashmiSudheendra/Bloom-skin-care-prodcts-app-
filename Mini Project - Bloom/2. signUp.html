@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom-Sign Up Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+<body>
+  <div id="maincon">
+    <div id="headersignup" class="d-flex justify-content-center align-items-center">
+      <h3 id="welcome" class="text-center lh-lg m-5">Happy to see you here!!</h3>
+    </div>
+    <div id="lnav">
+      <div class="container w-75">
+        <div id="line1" class="container d-flex justify-content-center w-100 mb-3 p-0"></div>
+        <div class="row justify-content-around w-100 m-0" id="centerlogo">
+          <div class="col-md-7 col-lg-7 col-xl-7 col-sm-7 text-center">
+            <img src="Icons & Logos/logo.png" alt="" weight="150px" height="150px" id="midlogo">
+          </div>
+          <div class="col-md-8 col-lg-8 col-xl-8 col-sm-12 mt-3" id="logbor">
+              <div class="row justify-content-between align-items-end" id="logline">
+                <label class="col-md-3 col-lg-3 col-xl-3" id="label">Name</label>
+                <input type="text" title="Username" class="col-md-7 col-lg-7 col-xl-7 form-control w-75 fs-6 fw-bold " id="name" required >
+              </div>
+              <div class="row justify-content-between align-items-end" id="logline">
+                <label class="col-md-3 col-lg-3 col-xl-3" id="label">Phone Number</label>
+                <input type="tel" title="Phone Number" class="col-md-7 col-lg-7 col-xl-7 form-control w-75 fs-6 fw-bold" id="phone" required>
+              </div>
+              <div class="row justify-content-between align-items-end" id="logline">
+                <label class="col-md-3 col-lg-3 col-xl-3" id="label">E-Mail ID</label>
+                <input type="email" title="E-MailID" class="col-md-7 col-lg-7 col-xl-7 form-control w-75 fs-6 fw-bold" id="email" required>
+              </div>
+              <div class="row justify-content-between align-items-end" id="logline">
+                <label class="col-md-3 col-lg-3 col-xl-3" id="label">Password</label>
+                <input type="password" title="password" class="col-md-7 col-lg-7 col-xl-7 form-control w-75 fs-6 fw-bold" id="password" required>
+                <p id="pwdmsg" class="text-center"></p>
+              </div>
+              <div class="row justify-content-between align-items-end" id="logline">
+                <label class="col-md-3 col-lg-3 col-xl-3" id="label">Confirm Password</label>
+                <input type="password" title="confirm Password" class="col-md-7 col-lg-7 col-xl-7 form-control w-75 fs-6 fw-bold" id="cpassword" required>
+              </div>
+              <div class="row d-flex justify-content-center align-items-end mt-3 mx-3">
+                <h3 class="col-md-4 col-lg-4 col-xl-4 p-0 fw-bolder text-center" id="captcha"></h3>
+                <div class="col-sm-3 col-md-3 col-lg-3 col-xl-3 d-flex justify-content-center m-2"> 
+                  <i class="fa-solid fa-arrows-rotate w-50 p-0" onclick="generateCaptcha()" id="refresh"></i>
+                </div>
+                <input type="text" title="Enter Captcha" class="col-md-5 col-lg-5 col-xl-5 mb-1 fs-5 fw-bold" id="captchaText">
+              </div>
+              <h5 id="errmsg" class="text-center mt-2 fw-bold"></h5>
+              <div class="d-flex justify-content-center align-items-end mt-3 mb-3">
+                <button type="submit" title="signUp" class="border-0 mb-3 mt-2" id="signup" onclick="checkall(); createNewUserData();" onerror="generateCaptcha()" data-toggle="modal" data-target="#myModal">Sign Up</button>
+              </div>
+          </div>
+        </div>
+        <div id="line2" class="container w-100 mb-5 mt-3"></div>
+      </div>
+    </div>
+    <div id="footer" class="w-100">
+      <div class="row justify-content-between">
+        <div class="col-md-4 col-lg-4 col-xl-4 ms-md-4 ms-lg-4" id="foot1">
+          <p class="fw-bold fs-4 my-3 text-center text-sm-start text-md-start text-lg-start">About Us</p>
+          <p class="text-center text-sm-start text-md-start text-lg-start">Bloom is one place to find perfect care and pampering for one's skin.
+            Genuine products, exclusive range of products, and top deals. Bloom provides you with the best of things at your doorstep. If you have been worried and are still searching for a cosmetic shop near you, it is time to invest your energy in a platform where you can find the most trustworthy and safe cosmetic products. Here is why Bloom is your perfect skin care partner. 
+          </p>
+        </div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mx-md-3 mx-lg-3 text-center">
+          <img src="Icons & Logos/logo.png" alt="" class="w-75">
+        </div>
+        <div class="col-md-4 col-lg-4 col-xl-4 text-center text-sm-end text-md-end text-lg-end me-3" id="foot2">
+          <p class="fw-bold fs-4 mt-3">Contact Us</p>
+          <p class="m-0">Bloom Pvt Ltd,<br>
+            Jp Nagar 5th phase,<br>
+            Bengaluru 560065</p>
+          <p class="m-0 fw-bold">9901533***</p>
+          <p class="m-0 mb-3 fw-bold">we_are_concerned@bloom.com</p>
+        </div>
+      </div>
+      <div class="row text-center" id="foot1">
+        <p class="mb-3">Bloom 2022 © All Rights Reserved</pclass>
+      </div>
+    </div>
+  </div>
+  <div id="mod">
+    <!-- <div class="modal1">
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content" id="modal">
+            <div class="modal-body text-center">
+              <p>Hurray !!</p>
+              <p>Welcome to Bloom</p>
+              <p>Would you like to LogIn</p>
+              <button type="button" class="btn btn-default m-3 fw-bold" data-dismiss="modal" id="modalbtn">LogIn</button>
+              <button type="button" class="btn btn-default m-3 fw-bold" data-dismiss="modal" id="modalbtn">Later</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  </div>
+  <script src="scriptSignUp.js"></script>
+</body>
+</html>
